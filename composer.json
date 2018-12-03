@@ -1,0 +1,22 @@
+ {
+    "name": "fationyyk/self-test-package",
+    "type" : "composer-plugin",
+    "description": "testcomposer",
+    "authors": [
+        {
+            "name": "fationyyk",
+            "email": "fation@126.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "*"
+    },
+    "extra": {
+        "class": "fationyyk\\selfpackage\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "fationyyk\\selfpackage\\": "src/"
+        }
+    }
+}
